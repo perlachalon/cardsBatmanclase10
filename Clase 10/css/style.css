@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header div{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+}
+
+h1{
+    background-color: #00669F;
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    font-size: 40px;
+    font-weight: normal;
+    padding: 28px 28px 26px;
+}
+
+section{
+    margin: 152px 32px 202px;
+    width: 960px; 
+}
+
+.card{
+    display: inline-block;
+    border-radius: 16px;
+    width: 300px;
+}
+
+h3.titleBatman{
+    text-transform: uppercase;
+}
+
+.cover-photo{
+    background-image: url(../img/background-batman.png);
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    padding: 16px 21px 150px;
+    height: 193px;
+    width: 300px;
+    position: relative;
+}
+
+.cover-photo.batman{
+    background-image: url(../img/background-batman.png);
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 120px;
+    width:120px;
+    position: relative;
+    left: 90px;
+    bottom: 60px;
+}
+
+.avatar.batman{
+    background-image: url(../img/avatar-batman.png);
+}
+
+.fas.fa-heart{
+    color: #CC2424;
+    font-size: 30px;
+}
+
+.info{
+    background-color: #F3F3F3;
+    box-shadow: 0px 5px 3px grey;
+    padding: 73px 16px 104px;
+    position: relative;
+    bottom: 120px;
+    z-index: -5;
+}
+.info{
+    font-weight: 400;
+}
+.info h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.info p{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;;  
+}
+
+.buttonMore{
+    background-color: #00669F;
+    color:#F3F3F3;
+    font-size: 15px;
+    text-align: center;
+    width: 130px;
+    padding: 15px 37px;
+    position: absolute;
+    bottom: 19px;
+    left: 85px;
+}
+
+.card.central{
+    position: relative;
+    left: 30px;
+}
+
+.card.lateral{
+    position: relative;
+    left: 60px;
+}
+
+.cover-photo.harley{
+    background-image: url(../img/background-harley.png);
+}
+
+.avatar.harley{
+    background-image: url(../img/avatar-harley.png);
+}
+
+footer{
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 16px;
+}
